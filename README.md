@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Indu-eng
 - 👀 I’m interested in learning cybersecurity
-- 🌱 I’m currently learning  cybersecurity
+- 🌱 I’m currently learning  cybersecurity/Cloud
   
   
   
