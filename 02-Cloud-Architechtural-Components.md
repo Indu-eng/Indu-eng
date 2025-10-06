@@ -25,5 +25,6 @@
       - when software maitenance happen other machines are available
   - and fault domain(FD)
       - keep the VMs in different FD so they all not depend on same hardware
+  - Azure Virtual Desktop
     
    
