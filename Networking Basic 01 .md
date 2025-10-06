@@ -6,4 +6,6 @@
 - bandwidth- capacity of a medium to carry data
     - kbps,Gbps  physical media properties ,current technologies
 - Throughput- is  the measure of the transfer of bits across the media over given period of time
-- 
+          - some factors influence throuhgput including
+               amount of data sent and receieve
+              type of data being trandmitted
