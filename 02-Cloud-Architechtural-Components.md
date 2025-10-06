@@ -18,3 +18,12 @@
 - application can utilize multiple resorce group
 ## Azure subcriptions
 ## Management group
+## Azure compute services
+- Virtual Machine
+  - can create VM scale sets this provide load balancing service
+  - vailability sets update domain (UD)
+      - when software maitenance happen other machines are available
+  - and fault domain(FD)
+      - keep the VMs in different FD so they all not depend on same hardware
+    
+   
