@@ -9,3 +9,5 @@
   - some factors influence throuhgput including
       - amount of data sent and receieve
       - type of data being trandmitted
+      - latency created by the number of network devices  encountered between source and destination
+ 
