@@ -10,3 +10,11 @@
 - accessible for only authorized personnels
 ### Azure china
 -built through the collaboration between Microsoft and 21Vianet
+## Resource group
+- like a folder , a container where manage the resorces
+- resource can only exist in one resource group
+- can exist in different regions
+- resource can moove to different groups
+- application can utilize multiple resorce group
+## Azure subcriptions
+## Management group
