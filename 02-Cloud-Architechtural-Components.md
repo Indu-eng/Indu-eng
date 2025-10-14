@@ -29,6 +29,13 @@
   # Azure region pairs and benifits
   - Microsoft associate some azure region with another region in same geography
   - These regions support geo-replication and geo-redundency also in disaster recovery
-  - but many regions are not paired and use availability zones as their primary means of redundancy.also many asuure service support geo-redundancy whether paired or not 
+  - but many regions are not paired and use availability zones as their primary means of redundancy.also many asuure service support geo-redundancy whether paired or not
+  ## - Benifits
+  - Region recovery sequence- in a outage,recovery of one region is prioratize
+  - Sequential updates- strives to do  planned updates one region first and wait until stable and then after the other
+  - data redundancy- to meet data redundancy requirement.
+    
+  
+  
     
    
