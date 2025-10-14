@@ -36,7 +36,7 @@
   - data redundancy- to meet data redundancy requirement.
      -  paired mean it doesnt provide automatic protect,azure provide us toolsand paired region stucture but we are responsible for our own recovery plan
   
-  | Term                           | Meaning                                                                 | Who’s Responsible          |
+##  | Term                           | Meaning                                                                 | Who’s Responsible          |
 | ------------------------------ | ----------------------------------------------------------------------- | -------------------------- |
 | **Paired Region**              | Two Azure regions linked for recovery                                   | Microsoft (infrastructure) |
 | **High Availability (HA)**     | Keep apps running during small outages                                  | You                        |
