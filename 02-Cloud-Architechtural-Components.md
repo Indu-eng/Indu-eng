@@ -36,6 +36,13 @@
   - data redundancy- to meet data redundancy requirement.
      -  paired mean it doesnt provide automatic protect,azure provide us toolsand paired region stucture but we are responsible for our own recovery plan
   
-  
+  | Term                           | Meaning                                                                 | Who’s Responsible          |
+| ------------------------------ | ----------------------------------------------------------------------- | -------------------------- |
+| **Paired Region**              | Two Azure regions linked for recovery                                   | Microsoft (infrastructure) |
+| **High Availability (HA)**     | Keep apps running during small outages                                  | You                        |
+| **Disaster Recovery (DR)**     | Recover from large outages (region loss)                                | You                        |
+| **Microsoft-managed failover** | Only for certain services (like GRS Storage), and only in extreme cases | Microsoft                  |
+| **Your HA/DR Plan**            | How to replicate, back up, fail over, and recover                       | You                        |
+
     
    
