@@ -34,7 +34,7 @@
   - Region recovery sequence- in a outage,recovery of one region is prioratize
   - Sequential updates- strives to do  planned updates one region first and wait until stable and then after the other
   - data redundancy- to meet data redundancy requirement.
-  paired mean it doesnt provide automatic protect,azure provide us toolsand paired region stucture but we are responsible for our own recovery plan
+     -  paired mean it doesnt provide automatic protect,azure provide us toolsand paired region stucture but we are responsible for our own recovery plan
   
   
     
