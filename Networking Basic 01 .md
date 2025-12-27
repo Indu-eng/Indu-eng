@@ -10,4 +10,12 @@
       - amount of data sent and receieve
       - type of data being trandmitted
       - latency created by the number of network devices  encountered between source and destination
+### Types of personal data
+- Volenteer data
+      - we know that data has been collected
+- Inferred data
+      - data genetated by our activities ex: while using atm card. so they catch our preferences where i used it 
+- Observed data
+      - using locations keep track the location
  
+# Network Components, Types and Connections
