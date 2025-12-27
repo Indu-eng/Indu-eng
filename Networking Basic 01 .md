@@ -19,3 +19,9 @@
       - using locations keep track the location
  
 # Network Components, Types and Connections
+ ### client and servers
+ - a host can act as a client and a server or both depending on the software installed
+ - host function as a client and the server on the network .this type of network call as peer to peer
+       - advantage -easy set up , less complex ,low cost coz no server need  can use in simple tasks ,like transferfiles and shairing printers
+       - disadvantage - no centralized administration, not secure , not scalable can be slower when act as a client and server
+   
