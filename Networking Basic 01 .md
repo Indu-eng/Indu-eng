@@ -25,3 +25,7 @@
     - advantage -easy set up , less complex ,low cost coz no server need  can use in simple tasks ,like transferfiles and shairing printers
     - disadvantage - no centralized administration, not secure , not scalable can be slower when act as a client and server
    
+### Network infrastructures
+    - end devices - printer ,computer, laptop, IP phone
+    - Intermediate devices - Wireless router, LAN switch ,router, firewall , multilayer switch 
+    - Network Media - LAN, WAN , Wireless
