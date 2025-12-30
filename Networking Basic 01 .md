@@ -42,5 +42,7 @@
             - faster download
             - sending and uploading info
             - use special modam to sepeate signals 
+    - Also there are cellular, Satellite and Dial-up telephone as additional connectivity options
+
     
 
