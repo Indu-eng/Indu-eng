@@ -36,7 +36,7 @@
     - cable - typically provide by television service providers , intenet data signals are coming in the same television delivery cable 
             - high bandwidth 
             - always on 
-            - special cable modam use to seperate data 
+            - special cable modam use to seperate data  
     - DSL - Digital subscriber line - DSL runs over telephone line split into three channels 
             - telephone calls
             - faster download
@@ -44,5 +44,6 @@
             - use special modam to sepeate signals 
     - Also there are cellular, Satellite and Dial-up telephone as additional connectivity options
 
-    
+#### Other wireless networks
+    - GPS, Wi-Fi, Bluetooth ,NFC 
 
