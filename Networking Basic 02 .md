@@ -1,4 +1,4 @@
-# Internet protocols
+ # Internet protocols
 
 ## IPv4 address
       - this is the logical network address that every host need to participate in internet and almost all LANs.must be unique and configure properly to communicate remortly.
@@ -9,3 +9,6 @@
       - includes network portion and host portion which is unique 
 ### networks and hosts
       - subnet musk: 225.225.225.0 used to identif the network on which the host is connected 
+      - network to communicate to another network needs to go through the router
+# ipv4 and network segmentation
+      -
