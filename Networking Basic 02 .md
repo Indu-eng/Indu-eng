@@ -7,9 +7,9 @@
       - ip address contain 32 bits  
 ### ipv4 address structure
       - includes network portion and host portion which is unique 
-### networks and hosts
-   - subnet mask: 225.225.225.0 used to identif the network on which the host is connected 
-   - 10.0.0.0/8  subnet mask : 225.0.0.0
+ ### networks and hosts
+        - subnet mask: 225.225.225.0 used to identif the network on which the host is connected 
+        - 10.0.0.0/8  subnet mask : 225.0.0.0
         - CIDR (network size)   subnet mask
         -/8                     255.0.0.0
         -/16                    225.225.0.0
