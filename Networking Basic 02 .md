@@ -52,4 +52,13 @@
   - here no internet cant reach outside the local network
   - this only allow local communication, like 2 connected PC
   - windows uses APIPA by default
+### legacy classful addressing
+  - in 1981 RFC 790 defined classful addressing  to assingn ipv4 address
+  -  Classs A  range (0.0.0.0/8  to 127.0.0.0/8)for extreme large network of 16 million hosts
+  -  Class B range (128.0.0.0/16 to 191.255.0.0/16)for mediume network hosts more thatn 65000 per network
+  -  Class C range(192.0.0.0/24 to 223.255.255.0/24) network for max 254 hosts
+  -  there is also malticast as D class and experiment address E class
+  -  in 1990 classful aressing replaced with classless addressing
+  -  in classless addressing CIDR (this is the modern way) thsi is what we use now
+
    
