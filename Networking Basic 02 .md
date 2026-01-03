@@ -20,6 +20,7 @@
       - one to one communication 
       - unicast host address range 1.1.1.1 to 223.255.255.255.
    ### broadcast 
+      - range 255.255.255.255
       - one to all communication
       - no broadcast packet in ipv6 
    ### multicast
@@ -27,5 +28,11 @@
       -ipv4 has recerved 224.0.0.0 to 239.255.255.255 address as multicast addresses
       - routing protocols such as OSPF: open shortest parth first use multicast transmission 
       - to be a multicast client need to subscribe the multicast group( ex.224.10.10.5 each multicast group represented by a single ipv4 address )
-   ### public and private ipv4address
+   ### experimental
+   - range 240.0.0.0- 255.255.255.255
+   ### public and private ipv4 address
+   #### RFC 1918 private address range
+   - 10.0.0.0/8         10.0.0.0. - 10.255.255.255
+   - 172.16.0.0/12      172.16.0.0 - 172.31.255.255
+   - 192.168.0.0/16     192.168.0.0 - 192.168.255.255
    
