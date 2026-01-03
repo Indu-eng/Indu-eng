@@ -20,5 +20,6 @@
    ### multicast
       - one to selected group
       -ipv4 has recerved 224.0.0.0 to 239.255.255.255 address as multicast addresses
+      - routing protocols such as OSPF: open shortest parth first use multicast transmission 
       - to be a multicast client need to subscribe the multicast group( ex.224.10.10.5 each multicast group represented by a single ipv4 address )
       - 
