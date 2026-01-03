@@ -39,5 +39,17 @@
   ### Routing to the internet
    ### private ipv4 address and network addres  translation
     - private ipv4 address will be translated to public ipv4 address using NAT brfore routing to the internet
-    -
+ ### Special use ipv4 address 
+   ### loopback address 
+   - 127.0.0.0 /8 or 127.0.0.1 to 127.225.225.254   more commenly identify as 127.0.0.1
+   - ping command use to test connections to other hosts but it can also use to test your own device
+   - ex: ping 127.0.0.1
+   - this means the localhost
+  ### link local address(APIPA)
+  - range 169.254.0.1 to 169.254.255.254
+  - this is call automatic private ip addressing this can happen in many situations like DHCP no replying , router is down etc
+  - then the device randomly assigned an ip from this range
+  - here no internet cant reach outside the local network
+  - this only allow local communication, like 2 connected PC
+  - windows uses APIPA by default
    
