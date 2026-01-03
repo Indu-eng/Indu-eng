@@ -10,10 +10,10 @@
 ### networks and hosts
       - subnet mask: 225.225.225.0 used to identif the network on which the host is connected 
       - 10.0.0.0/8  subnet mask : 225.0.0.0
-      - CIDR  subnet mask
-      -/8     255.0.0.0
-      -/16    225.225.0.0
-      -/24    225.225.225.0
+      - CIDR (network size)   subnet mask
+      -/8                     255.0.0.0
+      -/16                    225.225.0.0
+      -/24                    225.225.225.0
       - network to communicate to another network needs to go through the router
 # ipv4 and network segmentation
    ### unicast
