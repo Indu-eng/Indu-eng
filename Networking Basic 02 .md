@@ -9,6 +9,11 @@
       - includes network portion and host portion which is unique 
 ### networks and hosts
       - subnet mask: 225.225.225.0 used to identif the network on which the host is connected 
+      - 10.0.0.0/8  subnet mask : 225.0.0.0
+      - CIDR  subnet mask
+      -/8     255.0.0.0
+      -/16    225.225.0.0
+      -/24    225.225.225.0
       - network to communicate to another network needs to go through the router
 # ipv4 and network segmentation
    ### unicast
@@ -22,4 +27,5 @@
       -ipv4 has recerved 224.0.0.0 to 239.255.255.255 address as multicast addresses
       - routing protocols such as OSPF: open shortest parth first use multicast transmission 
       - to be a multicast client need to subscribe the multicast group( ex.224.10.10.5 each multicast group represented by a single ipv4 address )
-      
+   ### public and private ipv4address
+   
