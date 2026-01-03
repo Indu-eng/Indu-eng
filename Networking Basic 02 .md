@@ -59,6 +59,6 @@
   -  Class C range(192.0.0.0/24 to 223.255.255.0/24) network for max 254 hosts
   -  there is also malticast as D class and experiment address E class
   -  in 1990 classful aressing replaced with classless addressing
-  -  in classless addressing CIDR (this is the modern way) thsi is what we use now
-
+  -  in classless addressing CIDR (this is the modern way) thsi is what we use
+RIR receive IPs from IANA to allocate to ISPs and some organizations
    
