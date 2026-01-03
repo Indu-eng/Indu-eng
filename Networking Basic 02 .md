@@ -35,4 +35,9 @@
    - 10.0.0.0/8         10.0.0.0. - 10.255.255.255
    - 172.16.0.0/12      172.16.0.0 - 172.31.255.255
    - 192.168.0.0/16     192.168.0.0 - 192.168.255.255
+
+  ### Routing to the internet
+   ### private ipv4 address and network addres  translation
+    - private ipv4 address will be translated to public ipv4 address using NAT brfore routing to the internet
+    -
    
