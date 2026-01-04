@@ -61,4 +61,21 @@
   -  in 1990 classful aressing replaced with classless addressing
   -  in classless addressing CIDR (this is the modern way) thsi is what we use
 ### RIR receive IPs from IANA to allocate to ISPs and some organizations
+# IPv6 addressing format and rules
+- IPv6 designed to be the successor to IPv4 it has larger 128 bit address space
+- ICMPv4 mainly was for error msg ,ping and other importnant function were in seperate protocol ARP, DHCP
+- IPv4 need HDCP or manual configuration
+- IMPv6 includes that all  instead being a seperate protocols
+- IPv6 uses SLAAC stateless address autoconfiguration  so generate its own ipv6 address can work without DHCP.
+## IPv4 and IPv6 coexistance
+ - IETF - make rules for internet , internet protocols layer3-7
+ - IEEE - make rules for network cables and wifi, physical and datalink  standards
+
+ - IETF has make protocols and tools to migrate to ipv6 that technique can can be devided into three
+ -  1 dual stack -allows ipv4 and ipv6 operate simultaniously on the same network (2001)
+ -  Tunneling ipv6 inside ipv4 (2002)
+ -  Tranlation- NAT64 router-   ipv6 to ipv4 and backword
+ -  goal is native ipv6 communication from sourse to destination ,so dual stack is good
+## IPv6 addressing
+ - 
    
