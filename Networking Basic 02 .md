@@ -72,9 +72,9 @@
  - IEEE - make rules for network cables and wifi, physical and datalink  standards
 
  - IETF has make protocols and tools to migrate to ipv6 that technique can can be devided into three
- -  1 dual stack -allows ipv4 and ipv6 operate simultaniously on the same network (2001)
- -  Tunneling ipv6 inside ipv4 (2002)
- -  Tranlation- NAT64 router-   ipv6 to ipv4 and backword
+    - 1 dual stack -allows ipv4 and ipv6 operate simultaniously on the same network (2001)
+     - Tunneling ipv6 inside ipv4 (2002)
+     - Tranlation- NAT64 router-   ipv6 to ipv4 and backword
  -  goal is native ipv6 communication from sourse to destination ,so dual stack is good
 ## IPv6 addressing
  - 
