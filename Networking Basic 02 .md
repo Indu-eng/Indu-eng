@@ -77,5 +77,12 @@
      - Tranlation- NAT64 router-   ipv6 to ipv4 and backword
  -  goal is native ipv6 communication from sourse to destination ,so dual stack is good
 ## IPv6 addressing
- - 
+ - x:x:x:x:x:x:x:x:
+ - represented using hexadecimal numbers
+ - from 0-9 and A-F
+ - Ipv6 address are 128 bit long
+ - 128/4 =16
+ - bit 16 represented in one 4 hexadecimal digits
+ - X: include= 4 hexadecimal digits =16 bits or we can call this hextet
+ - one hexadecimal = 4 bits 
    
