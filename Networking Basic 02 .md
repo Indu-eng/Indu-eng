@@ -79,7 +79,7 @@
 ## IPv6 addressing
  - x:x:x:x:x:x:x:x:
  - represented using hexadecimal numbers
- - from 0-9 and A-F
+ - from 0-9 and A-F not case sensitive
  - Ipv6 address are 128 bit long
  - 128/4 =16
  - bit 16 represented in one 4 hexadecimal digits
