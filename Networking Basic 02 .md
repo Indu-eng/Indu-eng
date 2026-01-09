@@ -77,6 +77,7 @@
      - Tranlation- NAT64 router-   ipv6 to ipv4 and backword
  -  goal is native ipv6 communication from sourse to destination ,so dual stack is good
 ## IPv6 addressing
+ - providing 340 undecillion pocible address
  - x:x:x:x:x:x:x:x:
  - represented using hexadecimal numbers
  - from 0-9 and A-F not case sensitive
@@ -84,5 +85,15 @@
  - 128/4 =16
  - bit 16 represented in one 4 hexadecimal digits
  - X: include= 4 hexadecimal digits =16 bits or we can call this hextet
- - one hexadecimal = 4 bits 
+ - one hexadecimal = 4 bits
+### preferred format rules
+ - omit the leading Zeros
+ - ex: 2001:0db8:0000:1111:0000:0000:0000:0200
+ - result 2001:dg8:0:1111:0:0:0:200
+
+ - (::) can replace cotiguous strings of non or more 16 bits hextets consisting of all zeros
+ - ex:  2001:db8:0:1111::200
+ - this :: can only use once in a an address
+ - if the address more than one cotiguous string then use this on the longest string if the strings are equal then use :: for the first string
+ - 
    
