@@ -63,8 +63,8 @@
 ### RIR receive IPs from IANA to allocate to ISPs and some organizations
 # IPv6 addressing format and rules
 - IPv6 designed to be the successor to IPv4 it has larger 128 bit address space
-- ICMPv4 mainly was for error msg ,ping and other importnant function were in seperate protocol ARP, DHCP
-- IPv4 need HDCP or manual configuration
+- in IPv4, ICMPv4 mainly was for error msg ,ping and other importnant function were in seperate protocol ARP-address resolution , DHCP-address configuration
+- IPv4 need DHCP or manual configuration
 - IMPv6 includes that all  instead being a seperate protocols
 - IPv6 uses SLAAC stateless address autoconfiguration  so generate its own ipv6 address can work without DHCP.
 ## IPv4 and IPv6 coexistance
@@ -72,9 +72,9 @@
  - IEEE - make rules for network cables and wifi, physical and datalink  standards
 
  - IETF has make protocols and tools to migrate to ipv6 that technique can can be devided into three
-    - 1 dual stack -allows ipv4 and ipv6 operate simultaniously on the same network (2001)
+    - 1 dual stack -allows ipv4 and ipv6 operate simultaniously on the same network or devices (2001)
      - Tunneling ipv6 inside ipv4 (2002)
-     - Tranlation- NAT64 router-   ipv6 to ipv4 and backword
+     - Tranlation- use NAT64 router-  translate ipv6 to ipv4 and backword
  -  goal is native ipv6 communication from sourse to destination ,so dual stack is good
 ## IPv6 addressing
  - providing 340 undecillion pocible address
@@ -87,13 +87,17 @@
  - X: include= 4 hexadecimal digits =16 bits or we can call this hextet
  - one hexadecimal = 4 bits
 ### preferred format rules
+ - rule 1
  - omit the leading Zeros
  - ex: 2001:0db8:0000:1111:0000:0000:0000:0200
  - result 2001:dg8:0:1111:0:0:0:200
 
- - (::) can replace cotiguous strings of non or more 16 bits hextets consisting of all zeros
+ - rule 2
+ -  (::) can replace cotiguous strings of non or more 16 bits hextets consisting of all zeros
  - ex:  2001:db8:0:1111::200
  - this :: can only use once in a an address
  - if the address more than one cotiguous string then use this on the longest string if the strings are equal then use :: for the first string
- - 
+## Dynamic Addressing with DHCP
+- Static and dynamic addressing
+- 
    
