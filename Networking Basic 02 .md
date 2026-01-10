@@ -98,6 +98,17 @@
  - this :: can only use once in a an address
  - if the address more than one cotiguous string then use this on the longest string if the strings are equal then use :: for the first string
 ## Dynamic Addressing with DHCP
-- Static and dynamic addressing
-- 
-   
+### Static and dynamic addressing
+   Static addressing
+ - network administrator should manually confugiur network information for hosts
+ - incliding following 3
+ - ip address
+ - subnet mask
+ - default gate way- if host needs to access internet or remort network ,thisis what important
+ -  some devices like printers also servers firewalls routers and swiches need permenent address if that change that will not be accessible
+ -  be care full and keep accurate records of which ip belongs to which host
+ -  otherwise it conflict
+ -  errors are more likely to ocurr
+
+   Dynamic addressing
+ - 
