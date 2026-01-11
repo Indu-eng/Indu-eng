@@ -120,11 +120,11 @@
  - for enterprices, can have their own local dhcp server 
 ## DHCPv4 Configuration
 - DHCP is a software and also DNS server also can run in any capable system linux server or windows server
-- host send the broadcast to find the DHCP, we call it DHCP discover,and it containes the MAC address as well
+- host send the broadcast 225.225.225.225. to find the DHCP, we call it DHCP discover,and it containes the MAC address as well
 - then recieve DHCP offer from the DHCP server which include ip, subnet mask,default gateway
 - then sends back Dhcp request to inform accept the offer
 - last DHCP ACK that sent to confirm that now your mac is set to the ip
 
-- 
-
+  
+- so when a host start to boots after 2 week break it first send broad cast to find the DHCP server IP, so destination ip  is 225.225.225.225. and destination MAC address is FF:FF:FF:FF:FF:FF: 
    
