@@ -128,14 +128,16 @@
   
 - so when a host start to boots after 2 week break it first send broad cast to find the DHCP server IP, so destination ip  is 225.225.225.225. and destination MAC address is FF:FF:FF:FF:FF:FF:
 # Gateways to Other networks
-- router provide the gateway through which host can communicate with host on a different network
+- router provide the gateway through which host can communicate with host on a different network(internet)
 - for that hosts must know the router interface ip address of where host attached
 - this call default gateway
 - can be configured statically or received dynamically by DHCP
 - wireless router is configured to be the  DHCP server on a local network
-- it automatically send the correct interface address to the hosts as default gateway
+- it automatically send the correct interface address to the its hosts as default gateway
 - most Dhcp servers are configured to assing private address to the host on a internal network
 - router works as the DHCP client when it connect to the IPS to obtain Public ip address.
-- router receive A public IP address and Subnet mask, Default gateway, DNS servers
+- router receive A public IP address and Subnet mask, Default gateway, DNS servers from the IPS
  ## Network addresss translation
- 
+ - wireless router receives a public address from the ISP , which allows it to send and receive packets in the internet.
+ - it , in turn provide private address to the local network clients.
+ -   
