@@ -140,4 +140,11 @@
  ## Network addresss translation
  - wireless router receives a public address from the ISP , which allows it to send and receive packets in the internet.
  - it , in turn provide private address to the local network clients.
- -   
+##  The ARP Process
+### same network
+ - hosts need to send messsage to destination but it knows only the IP of the destination so in that case,need to usr ARPto  find the MAC adddress of the destination 
+ - if the source and destination are in the same LAN, the Ethernet frame contains the source MAC and the destination MAC
+ - ARP is performed by the source host to map the destination IP address to a MAC address. The source then creates an IP packet and encapsulates it inside an Ethernet frame.
+ - The switch forwards the Ethernet frame based on MAC addresses only.
+ - The Layer 3 IP packet contains the source IPv4 address and the destination IPv4 address.
+### destination on remote network
