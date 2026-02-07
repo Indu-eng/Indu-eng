@@ -137,6 +137,7 @@
 - most Dhcp servers are configured to assing private address to the host on a internal network
 - router works as the DHCP client when it connect to the IPS to obtain Public ip address.
 - router receive A public IP address and Subnet mask, Default gateway, DNS servers from the IPS
+- proces used to convert private IP address to internet routable Ip address call NAT 
  ## Network addresss translation
  - wireless router receives a public address from the ISP , which allows it to send and receive packets in the internet.
  - it , in turn provide private address to the local network clients.
@@ -148,3 +149,8 @@
  - The switch forwards the Ethernet frame based on MAC addresses only.
  - The Layer 3 IP packet contains the source IPv4 address and the destination IPv4 address.
 ### destination on remote network
+ - when the destination on another network destination mac address will be the default gateway
+ - when router receives the ethernet frame it decapsulate layer 2 information , using the destination ip4 address deside the next hop device and encapsulate nest ipv4 address in a new data link frame
+ - so new destination mac would be another router
+ - 
+ - 
