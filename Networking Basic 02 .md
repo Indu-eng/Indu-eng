@@ -151,6 +151,9 @@
 ### destination on remote network
  - when the destination on another network destination mac address will be the default gateway
  - when router receives the ethernet frame it decapsulate layer 2 information , using the destination ip4 address deside the next hop device and encapsulate nest ipv4 address in a new data link frame
- - so new destination mac would be another router
- - 
- - 
+ - so new destination mac would be another router mac address
+ - when send data over network  layer 3- network layer contains  source ip and destination ip but ip packet can not travet directly in wire so they need to be wrape inside  layer 2 frame like ethernet.we call it as encapsulation. 
+ - IP Packet → wrapped inside → Ethernet Frame
+ - IP address = used to route across networks (end-to-end)
+ - MAC address = used to deliver inside a local network (hop-to-hop)
+
