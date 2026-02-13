@@ -156,4 +156,6 @@
  - IP Packet → wrapped inside → Ethernet Frame
  - IP address = used to route across networks (end-to-end)
  - MAC address = used to deliver inside a local network (hop-to-hop)
+### broadcast containment
+ - 
 
