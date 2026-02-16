@@ -165,4 +165,3 @@
  - 1.so first PC1 send ARP request(a broadcast frame)
  - 2.then PC2 reply with ARP reply
  - 3.then pc1 store the received MAC along with their IP in a ARP table
- - 
