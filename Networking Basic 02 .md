@@ -157,5 +157,12 @@
  - IP address = used to route across networks (end-to-end)
  - MAC address = used to deliver inside a local network (hop-to-hop)
 ### broadcast containment
+ - ethernet broadcast MAC address is 48 bit address made up of ones.
+ - broad cast MAC in hexadecimal notation FFFF.FFFF.FFFF
+ - a sending host can use IPV4 protocole called ARP - address resolution protocol to discover a Mac address of any host on the same local network
+ - IPV6 use method call neighbor discovery. (ND)
+ - we use ARP when we know ip address of the receiver but dont know their MAC. we need to know the MAC to encapsulate ipv4 in a ethernet frame.
+ - 1.so first PC1 send ARP request(a broadcast frame)
+ - 2.then PC2 reply with ARP reply
+ - 3.then pc1 store the received MAC along with their IP in a ARP table
  - 
-
