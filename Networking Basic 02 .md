@@ -171,4 +171,11 @@
  - security -we dont need defferent department to access a printer in another dipartment
  - when we moving (geograpically segment)
 
+### ip packet encapsulate in an Ethernet Frame
+- most situations we want to connect with remote hosts- like other homes, business, and internet
+- router connect multiple layyer 3 ,Ip networks
+- swiches are based on layer 2 MAC address
+- any time if the networkportion of the ip address of the sourse and destination do not match, router must be used to forward the message. then  router decapsulate the ethernet frame and read the destination address in the ip packet. then determine where to forward the message . then re encapsulate the packet back into new frame and forward
+- 
+
 
