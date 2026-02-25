@@ -167,4 +167,8 @@
  - 3.then pc1 store the received MAC along with their IP in a ARP table
 ## Routing between networks
 ### the needs for routing
- - 
+ - limit the broad cast traffic
+ - security -we dont need defferent department to access a printer in another dipartment
+ - when we moving (geograpically segment)
+
+
