@@ -179,8 +179,23 @@
 ### how a message travel between a network and a within a network
 - first to send in the same network,the source, build the ipv4 packet containnig the source ip address and the destination ip v 4 address
 - then source check are we on same network using the subnet mask
-- if yes that mean they can send the packet directly and no need to send to the defsult gateway
-- 
+- if yes that mean they can send the packet directly and no need to send to the default gateway
+- then source going to create ethernet frame with own mac address and want to know the destination mac address asociate with the destination ip adress
+-  Now source check for the ARP table, if it was not there do the ARP request and add to the ARP table.
+-  then sent to the destination
+-  what happen in remote destination?
+-  check the ip and determine weather it is on a different network by using subnet mask
+-  so then it send to default gateway
+-  what is the MAC address of default gateway
+-  For that check the ARP table
+-  then forward the ethernet packet to the router
+-  router receive tha packet and remove the ithernet header(frame) informations(source and destination mac)
+-  NOW the routerdoes it job call layer 3 forwording which is routing
+-  first look for the destination ip v 4 address, then look at the routing table and find ethernet to reach the address  
+-  now encapsulate the frame with new ethernet frame, so the sourse mac Address will be the mac address of routher's interface card
+-  this is ethernet layer 2 is for network interface card
+-  now need to know the destination MAC for that check the ARP table
+-  then send
 
 
 
