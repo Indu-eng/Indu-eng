@@ -196,6 +196,47 @@
 -  this is ethernet layer 2 is for network interface card
 -  now need to know the destination MAC for that check the ARP table
 -  then send
+### routing table 
+- routing tables are not concerned with individual address of host, it contains the addresses of the networks, and the best path to reach those networks
+- routing table can dynamically updated by the infor receive from other routers ,also can manually entered by the network administrator
+- if a router cannot determine where to forward, it will drop it, so network admin configure a static default route that place it to the routing table ,so that packet will not be droped due to destination network not being in the routing table.
+- A default route is the interface which the touter forward unknown destination ip network address.
+- default route usually conencts to another router that can forwards its final destination network
+### default gateway
+- when a host qants send a packet to a remote network that use the default gate way, router
+- a host is given the ipv4 address of the router through the default gate way address configured in its TCP/IP settings
+- and use ARP to determine tha MAC address of the router
+### create a LAN
+- all the local networks within a LAN are under one administrative control.typically use ethernet or wireless protocols
+- intranet refers to a private LAN of an organisation
+### local and remote network segments
+- in  a LAN  it is possible to place all the hosts underin a one local networkand or devide them up between multiple networks connections connected by a distributionlayer device
+- when all the hosts are in one segment,
+- Advantages of a single local segment:
 
+  - Appropriate for simpler networks
+  - Less complexity and lower network cost
+  - Allows devices to be "seen" by other devices
+  - Faster data transfer - more direct communication
+  - Ease of device access
+  - Disadvantages of a single local segment:
+
+  - All hosts are in one broadcast domain which causes more traffic on the segment and may slow network performance
+  - Harder to implement QoS
+  - Harder to implement security
+ 
+ - when placing additional hosts on a remote network
+ - Advantages:
+
+  - More appropriate for larger, more complex networks
+  - Splits up broadcast domains and decreases traffic
+  - Can improve performance on each segment
+  - Makes the machines invisible to those on other local network segments
+  - Can provide increased security
+  - Can improve network organization
+- Disadvantages:
+  - Requires the use of routing (distribution layer)
+  - Router can slow traffic between segments
+  - More complexity and expense (requires a router)
 
 
