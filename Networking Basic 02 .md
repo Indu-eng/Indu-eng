@@ -176,6 +176,11 @@
 - router connect multiple layyer 3 ,Ip networks
 - swiches are based on layer 2 MAC address
 - any time if the networkportion of the ip address of the sourse and destination do not match, router must be used to forward the message. then  router decapsulate the ethernet frame and read the destination address in the ip packet. then determine where to forward the message . then re encapsulate the packet back into new frame and forward
+### how a message travel between a network and a within a network
+- first to send in the same network,the source, build the ipv4 packet containnig the source ip address and the destination ip v 4 address
+- then source check are we on same network using the subnet mask
+- if yes that mean they can send the packet directly and no need to send to the defsult gateway
 - 
+
 
 
