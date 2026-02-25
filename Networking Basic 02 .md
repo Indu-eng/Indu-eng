@@ -227,7 +227,6 @@
  
  - when placing additional hosts on a remote network
  - Advantages:
-
   - More appropriate for larger, more complex networks
   - Splits up broadcast domains and decreases traffic
   - Can improve performance on each segment
