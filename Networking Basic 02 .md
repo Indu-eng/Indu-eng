@@ -243,3 +243,6 @@
 - arp -a	         MAC addresses of other devices (like default gateway)
 - tracert         command uses ICMP to return information about the routers that are passed as packets go from the source PC to the destination.
 - Trace to a remote destination by going to one of the PCs and entering tracert followed by the URL of the web server.
+## TCP  and UDP
+- UDP is a delivery system that does not require acknowledgement of receipt
+- in applications such as streaming 
