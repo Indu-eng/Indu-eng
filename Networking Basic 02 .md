@@ -237,5 +237,6 @@
   - Requires the use of routing (distribution layer)
   - Router can slow traffic between segments
   - More complexity and expense (requires a router)
-
+### create a LAN
+- 
 
