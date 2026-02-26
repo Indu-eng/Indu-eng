@@ -238,5 +238,8 @@
   - Router can slow traffic between segments
   - More complexity and expense (requires a router)
 ### create a LAN
-- 
 
+- ipconfig /all	  Your PC’s MAC address
+- arp -a	         MAC addresses of other devices (like default gateway)
+- tracert         command uses ICMP to return information about the routers that are passed as packets go from the source PC to the destination.
+- Trace to a remote destination by going to one of the PCs and entering tracert followed by the URL of the web server.
