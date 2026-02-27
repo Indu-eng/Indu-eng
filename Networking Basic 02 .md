@@ -246,3 +246,9 @@
 ## TCP  and UDP
 - UDP is a delivery system that does not require acknowledgement of receipt
 - in applications such as streaming 
+- TCP  does keep the track of segment sent to the destination
+### TCP and UDP ports Numbers
+- there are several service we can access through the internet in a course of a day . web , email,FTP.DNS,VoIP,
+- when a message deliver using either TCP or UDP , the protocol and service identified by the port use in that process. Means every message containes source port number and the destination port number.
+- through which the host and server continuesly keep tracking the segment of a message in the conversation
+- 
