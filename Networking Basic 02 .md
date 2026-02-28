@@ -247,6 +247,11 @@
 - UDP is a delivery system that does not require acknowledgement of receipt
 - in applications such as streaming 
 - TCP  does keep the track of segment sent to the destination
+- UDP doesnt track packet but UDP needs source ports:
+
+- To identify the sending application
+- So the server knows where to reply
+- So your computer can separate different app traffic
 ### TCP and UDP ports Numbers
 - there are several service we can access through the internet in a course of a day . web , email,FTP.DNS,VoIP,
 - when a message deliver using either TCP or UDP , the protocol and service identified by the port use in that process. Means every message containes source port number and the destination port number.
@@ -257,3 +262,12 @@
 - Well Known ports 1- 1023
 - Registered ports 1024- 49151  can be used as either source or destination ports, used by organisations to register specific appilcations such as IM applications
 - private ports 49152- 65535 used as source ports  these ports can be use by any applications
+## socket pairs
+- source and destination ports are placed within a segment and then the segment encapsulate within an IP apcket. Ip packet contains the Ip address of the source and the destination . combination of source ip and source port or destination Ip and destination prot we call a scocket
+- client socket might be like 192.168.1.5:1099
+- socket on the web server like 192.168.1.7:80
+- together it is a socket pair 192.168.1.5:1099, 192.168.1.7:80
+- sorce port number act as the return address for thr requesting application .tarnsport layer keep the track of this port
+  ## netstat command
+- list the protocols in use, the local address and port numbers, the foreign address and port numbers, and the connection state
+  
