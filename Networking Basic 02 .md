@@ -250,5 +250,10 @@
 ### TCP and UDP ports Numbers
 - there are several service we can access through the internet in a course of a day . web , email,FTP.DNS,VoIP,
 - when a message deliver using either TCP or UDP , the protocol and service identified by the port use in that process. Means every message containes source port number and the destination port number.
-- through which the host and server continuesly keep tracking the segment of a message in the conversation
-- 
+- through which the host and server continuesly keep tracking the segment of a message in the conversation. this is for the TCP
+- when a sever receive a request from a client it needs to check destination port number what kind of service request by the client , so usually when we request a web page using we browser clients , that request is asigned to port 80 , HTTP that is the well known port for HTTP Web service
+- ICANN -internet corporation for assigned names and numbers  ports are assigned and managed by this well known organization
+- port category from 1 - 65535
+- Well Known ports 1- 1023
+- Registered ports 1024- 49151  can be used as either source or destination ports, used by organisations to register specific appilcations such as IM applications
+- private ports 49152- 65535 used as source ports  these ports can be use by any applications
