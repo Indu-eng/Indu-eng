@@ -1,5 +1,30 @@
-# Network security
-- DMZ is the perimetr networkthat sits between the internet and the internal network
-- 
-
-
+## Network security
+- DMZ is the perimeter networkthat sits between the internet and the internal network
+- we put the system wich puclic facing servers that are more likely to be attacked or compromised
+- Without a DMZ: attacker is often already “inside” the internal network or very close to it.
+- With a DMZ: attacker lands in a limited zone with restricted paths to internal systems.
+## virtual private network(VPN)
+- allos remote users to connect securely to the network over the internet
+- The user is on an untrusted network (home Wi-Fi, restaurant, mobile data).
+- VPN creates an encrypted tunnel to your organization (typically to the firewall).
+- After authentication, that remote user behaves almost like they’re inside the internal network,
+depending on access rules
+## DMZ
+   - Vulnerable app or plugin
+   - Weak admin interface exposed
+   - Poor patching / misconfiguration
+   - Leaked credentials in config files
+- VPN
+   - Stolen credentials (phishing, reuse, password spraying)
+   - MFA fatigue / social engineering
+   - Misconfigured VPN access (too broad)
+   - Compromised remote device connecting legitimately
+- Internal users
+   - Phishing → session/token theft
+   - Malicious attachment / drive-by download
+   - Stolen cookies/SSO tokens → access without password
+- firewall 
+- can be access firewall settings through WEb admin panel, SSH or CLI management
+- Web admin panel (GUI)
+- SSH  Admin connects remotely using a secure terminal connection.
+- CLI (Command Line Interface) CLI is the text-based way to configure the firewall using commands.
