@@ -1,4 +1,4 @@
-## Network security
+   # Network security
 - DMZ is the perimeter networkthat sits between the internet and the internal network
 - we put the system wich puclic facing servers that are more likely to be attacked or compromised
 - Without a DMZ: attacker is often already “inside” the internal network or very close to it.
