@@ -24,7 +24,28 @@ depending on access rules
    - Malicious attachment / drive-by download
    - Stolen cookies/SSO tokens → access without password
 - firewall 
-- can be access firewall settings through WEb admin panel, SSH or CLI management
-- Web admin panel (GUI)
-- SSH  Admin connects remotely using a secure terminal connection.
-- CLI (Command Line Interface) CLI is the text-based way to configure the firewall using commands.
+   - can be access firewall settings through WEb admin panel, SSH or CLI management
+   - Web admin panel (GUI)
+   - SSH  Admin connects remotely using a secure terminal connection.
+   - CLI (Command Line Interface) CLI is the text-based way to configure the firewall using commands.
+- Reverse Proxy / Load Balancer ,These systems sit in front of servers and receive all incoming traffic.
+   - Functions:Forward requests to backend servers Hide internal server IPs -Distribute traffic
+- WAF / API Gateway WAF (Web Application Firewall) protects web apps from attacks.
+   - possible attacks SQL injection , Cross site scripting (XSS)
+   - malicious API calls
+- Mail gate way/ STMP relay
+   - Functions , spam filtering ,routing email, malware scanning
+   - Intenet then mail gateway then internal mailserver . that is the parth 
+-DNS
+   - if the DNS is authoritative means it is  publicly reachable
+   - if DNS recursive/ internal ,it is for internal devices only
+   -authoritative DNS servers must be public, they are common targets for attackers.
+- Remote access gate way 
+   - ex VPN gateways 
+   -risk ca be stolen credentials , compromised laptops and weak authentication
+- Bastions /Jump Host -Secure server used to access internal system
+   - admins connect here first then to other servers
+   - Admin then Bastion Host then internal server
+
+
+
