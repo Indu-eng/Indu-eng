@@ -46,6 +46,19 @@ depending on access rules
 - Bastions /Jump Host -Secure server used to access internal system
    - admins connect here first then to other servers
    - Admin then Bastion Host then internal server
-
-
+- STFP /FTP server
+   - used to secure filr trasfer between systems or partners
+- VDI/Citrix Gateway
+   - provide vietual desktop or remote application
+   - users connect to a remote desktop environment hosted in the company network
+   - user then citrix gateway then virtual desktop
+- VoIP/ SIP Gateway
+   - handles internet phone systems
+   - SIP protocol allows voice calls over IP network
+   - Internet phone network → SIP gateway → internal phone system
+- Partner / vendor portal
+   - web portal used by external partners or suppliers
+- NTP 
+   - It is a protocol used to synchronize the clocks of computers and network devices over a network so they all have the same accurate time.
+   - 
 
