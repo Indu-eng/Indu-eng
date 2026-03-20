@@ -270,4 +270,16 @@
 - sorce port number act as the return address for thr requesting application .tarnsport layer keep the track of this port
   ## netstat command
 - this is in windows ,it can list the protocols in use, the local address and port numbers, the foreign address and port numbers, and the connection state
-  
+## application layer services
+### components of a URI (Uniform resourse Identifier)
+- URI has two specialisations
+- Uniform Resource Name (URN) - This identifies only the namespace of the resource (web page, document, image, etc.) without reference to the protocol.
+- Uniform Resource Locator (URL) - This defines the network location of a specific resource on the network. HTTP or HTTPS URLs are typically used with web browsers. Other protocols such as FTP, SFTP, SSH, and others can be used as a URL. A URL using SFTP might look like: sftp://sftp.example.com.
+
+  These are the part of URI
+- Protocol/scheme - HTTPS or other protocols such as FTP, SFTP, mailto, and NNTP
+- Hostname - w​ww.example.com
+- Path and file name - /author/book.html
+- Fragment - #page155
+https://www.example.com/author/book.html#page155
+
