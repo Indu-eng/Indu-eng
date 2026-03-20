@@ -308,4 +308,9 @@ https://www.example.com/author/book.html#page155
 - to download , and rename we can use
 - use the commend like this ftp> get sampleFile_FTP.tx
 #### Virtual Terminals
-- 
+- Telnet and SSH
+- C:> ssh -l admin 64.100.1.1
+Password:
+
+- telnet 64.100.1.1
+
