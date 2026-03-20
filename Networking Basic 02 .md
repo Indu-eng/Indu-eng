@@ -269,5 +269,5 @@
 - together it is a socket pair 192.168.1.5:1099, 192.168.1.7:80
 - sorce port number act as the return address for thr requesting application .tarnsport layer keep the track of this port
   ## netstat command
-- list the protocols in use, the local address and port numbers, the foreign address and port numbers, and the connection state
+- this is in windows ,it can list the protocols in use, the local address and port numbers, the foreign address and port numbers, and the connection state
   
