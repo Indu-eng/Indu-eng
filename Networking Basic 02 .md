@@ -282,4 +282,30 @@
 - Path and file name - /author/book.html
 - Fragment - #page155
 https://www.example.com/author/book.html#page155
-
+### Common network application services and protocols
+- DNS
+- SSH
+- SMPT
+- POP
+- IMAP
+- DHCP
+- HTTP
+- FTP
+#### DNS server
+- DNS server is the server that resolve domain IP from its name, normally in a homenetwork the dhcp which is running on the router handle this . ISP provaide DNS server address to your router
+- nslookup is the command that we can use on cmd to find the IP of any domain name
+- nslookup www.google.com
+#### web clients and servers
+#### FTP client and server
+- to upload a file to the file server
+- first in the cmd C> dir command to see the available file in our pc
+- then connect to the file server
+- C:> ftp 209.165.200.226
+- then ftp> ? to list the command
+- and then ftp> dir to see the files available
+- ftp> put sampleFile.txt to upload our file
+- then
+- to download , and rename we can use
+- use the commend like this ftp> get sampleFile_FTP.tx
+#### Virtual Terminals
+- 
