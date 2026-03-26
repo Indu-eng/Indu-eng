@@ -313,4 +313,9 @@ https://www.example.com/author/book.html#page155
 Password:
 
 - telnet 64.100.1.1
-
+### Email protocols
+- SMPT (simple mail transfer protocol)is used by email client to send emails to their locat email server, then the server check if the message for the local server or destined to another server
+- if the mesaage for another server it will use SMPT in between those servers. SMPT request sends to port 25
+- POP (Post office protocol)
+- support to receive and store the messages address to its user when client connect to email server the message downloaded to their clients  by default message are not kept on the server after they have been access by the client contact pop3 over port 110
+- IMAP4 (Internet message access protocol)
