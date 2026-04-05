@@ -329,4 +329,21 @@ Password:
       3 OAuth/API door → modern secure access
 
 If one door closes, others may still exist. so in modern email server can be access in the 3rd way as well.
+## trouble shooting commands
+- ipconfig - Displays IP configuration information.
+- ping - Tests connections to other IP hosts.
+- netstat - Displays network connections.
+- tracert - Displays the route taken to the destination.
+- nslookup - Directly queries the name server for information on a destination domain
 
+- ipconfig- display ip, default gateway , subnet mask like bacis 
+- ipconfig/All- display MAC adddress and ip of default gateways also DNS server . and dhcp ennable etc
+- ipconfig/release -If IP addressing information is assigned dynamically, the command ipconfig /release will release the current DHCP bindings.
+- ipconfig /renew - will request fresh configuration information from the DHCP server. A host may contain faulty or outdated IP configuration information and a simple renewal of this information is all that is required to regain connectivity.
+- When your computer does:
+
+ipconfig /release → it drops its current IP
+ipconfig /renew → it asks the network for a new IP address
+
+That request must reach a DHCP server (usually your router).
+- 
