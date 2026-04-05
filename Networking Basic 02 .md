@@ -342,8 +342,7 @@ If one door closes, others may still exist. so in modern email server can be acc
 - ipconfig /renew - will request fresh configuration information from the DHCP server. A host may contain faulty or outdated IP configuration information and a simple renewal of this information is all that is required to regain connectivity.
 - When your computer does:
 
-ipconfig /release → it drops its current IP
-ipconfig /renew → it asks the network for a new IP address
-
-That request must reach a DHCP server (usually your router).
+      ipconfig /release → it drops its current IP
+      ipconfig /renew → it asks the network for a new IP address
+      That request must reach a DHCP server (usually your router).
 - 
