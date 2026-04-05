@@ -319,3 +319,14 @@ Password:
 - POP (Post office protocol)
 - support to receive and store the messages address to its user when client connect to email server the message downloaded to their clients  by default message are not kept on the server after they have been access by the client contact pop3 over port 110
 - IMAP4 (Internet message access protocol)
+- A server that supports IMAP clients also receives and stores messages addressed to its users. However, unlike POP, IMAP keeps the messages in the mailboxes on the server, unless they are deleted by the user. The most current version of IMAP is IMAP4 which listens for client requests on port 143.
+
+- this is for understanding,
+- Think of Gmail like a building:
+
+      1 IMAP door → classic mail client access
+      2 POP3 door → download-only access
+      3 OAuth/API door → modern secure access
+
+If one door closes, others may still exist. so in modern email server can be access in the 3rd way as well.
+
