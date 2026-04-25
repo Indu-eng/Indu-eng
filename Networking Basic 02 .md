@@ -345,4 +345,7 @@ If one door closes, others may still exist. so in modern email server can be acc
       ipconfig /release → it drops its current IP
       ipconfig /renew → it asks the network for a new IP address
       That request must reach a DHCP server (usually your router).
-- 
+- show ip interface brief - //this command use on router CLI  to find the ip on available interface in routers.
+- Again code C in ipv4 routing table means The network is directly connected to the router’s interface to check the it use the following command
+- show ip route
+
